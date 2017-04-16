@@ -1,0 +1,19 @@
+{
+  "name": "object-assign",
+  "version": "1.0.0",
+  "description": "A Object.assgin implementation.",
+  "main": "./dest/bundle.js",
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "npm run build",
+    "test": "ava -t"
+  },
+  "keywords": ["Object.assgin"],
+  "author": "BinRui.Guan<differui@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-buble": "^0.15.0"
+  }
+}
